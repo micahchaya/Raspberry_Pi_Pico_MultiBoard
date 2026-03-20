@@ -4027,25 +4027,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.794 16.383 0)
+			(property "Reference" "U10"
+				(at 0 -20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Value" "Si4732"
-				(at -2.794 14.478 0)
+				(at 0 -18.034 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm"
+			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 				(at 6.35 -17.78 0)
 				(do_not_autoplace)
 				(effects
@@ -4056,7 +4054,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2202032030_SKYWORKS-SILICON-LABS-SI4732-A10-GSR_C2155558.pdf"
 				(at 1.27 -25.4 0)
 				(do_not_autoplace)
 				(effects
@@ -4068,6 +4066,24 @@
 			)
 			(property "Description" "AM/FM/SW/LW Broadcast Radio Receiver with RDS/RBDS"
 				(at -11.684 -42.164 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2155558"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB #" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4261,7 +4277,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4279,7 +4295,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4297,7 +4313,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4315,7 +4331,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4333,7 +4349,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4351,7 +4367,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4369,7 +4385,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4387,7 +4403,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4749,17 +4765,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "The pin numbers are wrong\nfor the Si4732.  The right\nside is reversed."
-		(exclude_from_sim no)
-		(at 119.634 133.858 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "053fd1ea-ef04-4f82-b57d-35e852c1181f")
 	)
 	(junction
 		(at 121.92 62.23)
